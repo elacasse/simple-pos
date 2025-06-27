@@ -74,7 +74,7 @@ Une collection Postman/Insomnia est disponible dans le dossier `/docs` *(optionn
 ## 🎥 Démo
 
 Une vidéo de démonstration est disponible ici :  
-[📹 Lien vers la vidéo](https://votre-lien-demo.com)
+[📹 Lien vers la vidéo](https://youtu.be/L5FmxzSqhJQ)
 
 ---
 
