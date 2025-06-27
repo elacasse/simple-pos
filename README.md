@@ -7,14 +7,10 @@ Prototype d’un micro-service de facturation respectant le format JSON:API, dé
 ## 🚀 Démarrage rapide
 
 ```bash
-git clone https://github.com/votre-utilisateur/mini-facturation.git
-cd mini-facturation
+git clone git@github.com:elacasse/simple-pos.git
+cd simple-pos
 
-# Lancer le backend + frontend via Docker
-docker compose up --build
-
-# L'API sera disponible sur http://localhost:8000
-# Le frontend (Vite) sur http://localhost:5173
+docker-compose up --build -d
 ```
 
 ---
@@ -83,4 +79,4 @@ Une vidéo de démonstration est disponible ici :
 ---
 
 Développé dans le cadre du devoir technique Latactik.  
-⏱ Temps passé : ~4h
+⏱ Temps passé : ~5h

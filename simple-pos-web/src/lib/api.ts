@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://simple-pos-api.test/api/v1',
+    baseURL: 'http://localhost:8000/api/v1',
     headers: {
         Accept: 'application/vnd.api+json',
         'Content-Type': 'application/vnd.api+json',

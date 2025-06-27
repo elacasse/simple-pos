@@ -15,4 +15,12 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  server: {
+    host: '0.0.0.0',        // allow access from outside the container
+    port: 5173,             // expose this in docker-compose
+    strictPort: true,       // avoid falling back to another port
+    hmr: {
+      host: 'localhost',    // or use your Docker host IP if needed
+    }
+  }
 })

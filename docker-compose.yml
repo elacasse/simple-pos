@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./simple-pos-api:/var/www/api
+      - ./simple-pos-web:/var/www/web
+      - ./docker/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./docker/site.conf:/etc/nginx/sites-available/default:ro
+      - ./docker/supervisord.conf:/etc/supervisor/conf.d/supervisord.conf:ro
+    ports:
+      - "8000:80"     # Laravel API
+      - "5173:5173"   # Vite Dev Server
+    environment:
+      PHP_VERSION: 8.3
