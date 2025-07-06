@@ -1,6 +1,6 @@
-# Mini Système de Facturation – Latactik Exercise
+# Mini Système de Facturation
 
-Prototype d’un micro-service de facturation respectant le format JSON:API, développé avec Laravel 11 et Vue 3.
+Prototype d’un micro-service de facturation respectant le format JSON:API, développé avec Laravel 12 et Vue 3.
 
 ---
 
